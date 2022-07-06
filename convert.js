@@ -8,14 +8,14 @@ const readSVG = require('simple-svg-tools');
 const cleanUp = require("./util.js");
 
 const source = "./source";
-const firstStageDir = "./first-stage";
-const secondStageDir = "./second-stage";
-const thirdStageDir = "./third-stage";
-const fourthStageDir = "./fourth-stage";
-const fifthStageDir = "./fifth-stage";
+const firstStageDir = "./temp/first-stage";
+const secondStageDir = "./temp/second-stage";
+const thirdStageDir = "./temp/third-stage";
+const fourthStageDir = "./temp/fourth-stage";
+const fifthStageDir = "./temp/fifth-stage";
 const outputDir = "./output";
 
-const dirArray = [firstStageDir, secondStageDir, thirdStageDir, fourthStageDir, outputDir];
+const dirArray = [firstStageDir, secondStageDir, thirdStageDir, fourthStageDir, fifthStageDir, outputDir];
 cleanUp(dirArray)
 
 const scaleToPixelsTemp = 200;
