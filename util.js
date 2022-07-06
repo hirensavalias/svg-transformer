@@ -7,5 +7,11 @@ const cleanUp = (dirArr) => {
     })
 }
 
-module.exports = cleanUp
+const createDirs = (dirArr) => {
+    dirArr.forEach(dir => {
+        fsExtra.mkdirSync(dir);
+    })
+}
+
+module.exports = { cleanUp, createDirs }
 
