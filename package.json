@@ -14,7 +14,7 @@
     "fs-extra": "^10.1.0",
     "oslllo-svg-fixer": "^2.1.1",
     "potrace": "^2.1.8",
-    "remove-svg-properties": "^0.3.4",
+    "remove-svg-properties-2": "^0.3.5",
     "scale-that-svg": "^1.0.5",
     "sharp": "^0.30.7",
     "simple-svg-tools": "^1.1.12"
