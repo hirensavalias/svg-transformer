@@ -1,0 +1,22 @@
+{
+  "name": "-create-icon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "convert.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node start.js convert",
+    "clean": "node start.js clean"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^10.1.0",
+    "oslllo-svg-fixer": "^2.1.1",
+    "potrace": "^2.1.8",
+    "remove-svg-properties": "^0.3.4",
+    "scale-that-svg": "^1.0.5",
+    "sharp": "^0.30.7",
+    "simple-svg-tools": "^1.1.12"
+  }
+}
