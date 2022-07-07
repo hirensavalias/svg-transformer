@@ -1,4 +1,7 @@
 ## Make svg icons font(fantaticon) compatible
+- removes evenodd values
+- resizes svgs to given size
+- cleans up svgs by removing not needed properties
 
 ### How to Convert Icons
 1. ```npm ci``` to install modules

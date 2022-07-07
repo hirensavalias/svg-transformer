@@ -1,7 +1,7 @@
 {
-  "name": "-create-icon",
+  "name": "svg-transformer",
   "version": "1.0.0",
-  "description": "",
+  "description": "Utility for fonts(fantasticons).",
   "main": "convert.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
