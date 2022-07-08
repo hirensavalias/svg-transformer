@@ -4,8 +4,8 @@
 - cleans up svgs by removing not needed properties
 
 ### How to Convert Icons
-1. ```npm ci``` to install modules
+1. ```yarn``` to install modules
 2. Put your icon(svgs) in ```source``` folder
-3. ```npm start```
-   1. ```npm start -- --size 30``` for custom size of the output svgs, Default: 24px
+3. ```yarn start```
+   1. ```yarn start -- --size 30``` for custom size of the output svgs, Default: 24px
 4. Converted Svgs will be in ```output```

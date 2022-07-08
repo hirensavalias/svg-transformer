@@ -48,8 +48,7 @@ const convertOne = async function (filename) {
 const convertAll = () => {
     fs.readdir(source, function (err, filenames) {
         if (err) {
-            onError(err);
-            return;
+            throw err;
         }
         filenames.forEach(function (filename) {
             convertOne(filename)
